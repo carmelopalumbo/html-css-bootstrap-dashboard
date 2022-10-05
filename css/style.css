@@ -19,9 +19,25 @@ main{
 
 /* header */
 
+.yellow{
+    color: rgb(236, 203, 16);
+}
+
 header{
     background-color: #F8F9FA;
     height: 70px;
+    width: 100%;
+}
+
+header img{
+    width: 100%;
+    padding: 0 10px;
+}
+
+header i{
+}
+
+.menu-container{
     width: 100%;
 }
 
