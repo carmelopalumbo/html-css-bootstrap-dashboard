@@ -1,1 +1,32 @@
 /* css */
+
+/* utility */
+
+/* DEBUG DA RIMUOVERE */
+
+nav{
+    background-color: blueviolet;
+    width: 10%;
+    height: calc(100vh - 70px);
+}
+
+main{
+    background-color: coral;
+    width: 90%;
+    height: calc(100vh - 70px);
+    overflow-x: auto;
+}
+
+/* header */
+
+header{
+    background-color: #F8F9FA;
+    height: 70px;
+    width: 100%;
+}
+
+/* main */
+
+.cp-container{
+    width: 100%;
+}
