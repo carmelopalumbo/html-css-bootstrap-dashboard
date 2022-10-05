@@ -4,7 +4,7 @@
 
 /* DEBUG DA RIMUOVERE */
 
-nav{
+aside{
     background-color: blueviolet;
     width: 10%;
     height: calc(100vh - 70px);
@@ -30,15 +30,7 @@ header{
 }
 
 header img{
-    width: 100%;
-    padding: 0 10px;
-}
-
-header i{
-}
-
-.menu-container{
-    width: 100%;
+    max-width: 100%;
 }
 
 /* main */
