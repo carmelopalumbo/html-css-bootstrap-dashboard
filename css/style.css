@@ -13,7 +13,8 @@ aside{
 /* DEBUG DA RIMUOVERE */
 
 aside{
-    background-color: blueviolet;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
     width: 10%;
     height: calc(100vh - 70px);
 }
