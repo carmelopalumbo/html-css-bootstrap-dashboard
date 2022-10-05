@@ -17,6 +17,9 @@ aside{
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
     width: 10%;
     height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 main{
@@ -46,4 +49,9 @@ header img{
 
 .cp-container{
     width: 100%;
+}
+
+aside p,
+aside i{
+    cursor: pointer;
 }
