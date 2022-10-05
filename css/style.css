@@ -2,6 +2,14 @@
 
 /* utility */
 
+main, header{
+    font-family: 'Roboto', sans-serif;
+}
+
+aside{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* DEBUG DA RIMUOVERE */
 
 aside{
