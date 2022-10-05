@@ -13,8 +13,8 @@ aside{
 /* DEBUG DA RIMUOVERE */
 
 aside{
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
     width: 10%;
     height: calc(100vh - 70px);
     display: flex;
@@ -23,7 +23,6 @@ aside{
 }
 
 main{
-    background-color: coral;
     width: 90%;
     height: calc(100vh - 70px);
     overflow-x: auto;
@@ -49,6 +48,14 @@ header img{
 
 .cp-container{
     width: 100%;
+}
+
+main .pills-menu .cp-container{
+    padding: 30px;
+}
+
+.pills-menu{
+    background-color: #1A73E8;
 }
 
 aside p,
