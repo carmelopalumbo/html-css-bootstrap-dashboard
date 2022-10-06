@@ -15,7 +15,7 @@ aside{
 aside{
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
-    width: 10%;
+    width: 8%;
     height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ aside{
 }
 
 main{
-    width: 90%;
+    width: 92%;
     height: calc(100vh - 70px);
     overflow-x: auto;
 }
@@ -89,7 +89,11 @@ main table tbody tr td i{
     border: 1px solid darkgrey;
     color: grey;
     padding: 5px 6px;
-    margin-right: 2px;
+    margin-right: 1%;
     border-radius: 5px;
     cursor: pointer;
+}
+
+main ._chart{
+    width: 50vw;
 }
