@@ -46,14 +46,6 @@ header img{
 
 /* main */
 
-.cp-container{
-    width: 100%;
-}
-
-main .pills-menu .cp-container{
-    padding: 30px;
-}
-
 .pills-menu{
     background-color: #1A73E8;
 }
@@ -61,6 +53,7 @@ main .pills-menu .cp-container{
 main .avatar{
     width: 30px;
 }
+
 aside p,
 aside i{
     cursor: pointer;
