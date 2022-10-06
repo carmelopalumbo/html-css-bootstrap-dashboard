@@ -34,14 +34,13 @@ main{
     color: rgb(236, 203, 16);
 }
 
+._logomobile{
+    width: 10vw;
+}
 header{
     background-color: #F8F9FA;
     height: 70px;
     width: 100%;
-}
-
-header img{
-    max-width: 100%;
 }
 
 /* main */
@@ -92,8 +91,4 @@ main table tbody tr td i{
     margin-right: 1%;
     border-radius: 5px;
     cursor: pointer;
-}
-
-main ._chart{
-    width: 50vw;
 }
