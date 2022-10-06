@@ -65,3 +65,71 @@ aside p,
 aside i{
     cursor: pointer;
 }
+
+main tbody tr :first-child{
+    width: 50%;
+}
+
+main ._add{
+    color: rgb(11, 104, 224);
+    border: 1px solid rgb(11, 104, 224);
+    padding: 0 13px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+main ._next-class{
+    background-color: #F7F7F7;
+    border-bottom: 1px solid lightgrey;
+}
+
+main ._tablebox{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+main  table tr td ._classavatar{
+    width: 35px;
+}
+
+table th,
+table td{
+    font-size: 0.9rem;
+}
+
+table th{
+    border-bottom: 1px solid black;
+}
+
+._done{
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+._process{
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+._failed{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+main table tbody tr td i{
+    border: 1px solid darkgrey;
+    color: grey;
+    padding: 5px 6px;
+    margin-right: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
