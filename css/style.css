@@ -58,6 +58,9 @@ main .pills-menu .cp-container{
     background-color: #1A73E8;
 }
 
+main .avatar{
+    width: 30px;
+}
 aside p,
 aside i{
     cursor: pointer;
