@@ -76,16 +76,7 @@ main ._add{
     padding: 0 13px;
     border-radius: 7px;
     cursor: pointer;
-}
-
-main ._next-class{
-    background-color: #F7F7F7;
-    border-bottom: 1px solid lightgrey;
-}
-
-main ._tablebox{
-    border: 1px solid lightgrey;
-    border-radius: 5px;
+    font-size: 2rem;
 }
 
 main  table tr td ._classavatar{
@@ -99,30 +90,6 @@ table td{
 
 table th{
     border-bottom: 1px solid black;
-}
-
-._done{
-    background-color: green;
-    color: white;
-    border-radius: 3px;
-    font-size: 0.7rem;
-    text-align: center;
-}
-
-._process{
-    background-color: orange;
-    color: white;
-    border-radius: 3px;
-    font-size: 0.7rem;
-    text-align: center;
-}
-
-._failed{
-    background-color: red;
-    color: white;
-    border-radius: 3px;
-    font-size: 0.7rem;
-    text-align: center;
 }
 
 main table tbody tr td i{
