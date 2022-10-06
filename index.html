@@ -24,7 +24,7 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col d-none col-md-2 col-lg-2 d-md-inline-block mt-md-2">
+                <div class="col d-none col-md-2 col-lg-2 d-md-inline-block mt-md-3">
                     <img src="img/logo.svg" class="img-fluid" alt="logo">
                 </div>
 
@@ -45,7 +45,8 @@
                               <a class="nav-link d-none d-lg-inline-block" href="#"><i class="bi bi-list-ul"></i></a>
                               <a class="nav-link d-none d-lg-inline-block" href="#"><i class="bi bi-question-circle-fill"></i></a>
                               <a class="nav-link d-none d-lg-inline-block" href="#"><i class="bi bi-three-dots-vertical"></i></a>
-                              <a class="nav-link" href="#"><i class="bi bi-bell-fill yellow">
+
+                              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-bell-fill yellow">
                               </i></a>
                         </div>
                     </nav>
@@ -356,5 +357,84 @@
                 </div>
             </main>
         </div>
+
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h4 id="offcanvasRightLabel">Form</h4>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+                <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-6">
+                        <h6>Email</h6>
+                        <input class="form-control" type="email">
+                      </div>
+                      <div class="col-6">
+                        <h6>Password</h6>
+                        <input class="form-control" type="password">
+                      </div>
+
+                      <div class="row pt-3">
+                        <div class="col">
+                            <h6>Indirizzo</h6>
+                            <input class="form-control" type="email">
+                          </div>
+                      </div>
+
+                      <div class="row pt-3">
+                        <div class="col-5">
+                            <h6>Citta'</h6>
+                            <input class="form-control" type="text">
+                        </div>
+
+                        <div class="col-4">
+                            <label for="inputState">Stato</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Scegli...</option>
+                                <option>Italia</option>
+                                <option>Francia</option>
+                                <option>Germania</option>
+                            </select>
+                        </div>
+
+                        <div class="col-3">
+                            <h6>CAP</h6>
+                            <input class="form-control" type="text">
+                        </div>
+                      </div>
+
+                      <div class="row pt-4">
+                        <div class="col">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFile">
+                                <label class="custom-file-label" for="customFile"></label>
+                              </div>
+                        </div>
+                     </div>
+
+                        <div class="row pt-4">
+                            <div class="col">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">Seleziona per proseguire</label>
+                                  </div>
+                            </div>
+                        </div>
+
+                        <div class="row pt-5">
+                            <div class="col">
+                                <button type="button" class="btn btn-primary">Salva</button>
+                                <button type="button" class="btn btn-warning">Svuota</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
     </body>
 </html>
