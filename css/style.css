@@ -49,6 +49,10 @@ header{
     background-color: #1A73E8;
 }
 
+.pills-menu span{
+    background-color: #155CBA;
+}
+
 main .avatar{
     width: 30px;
 }
